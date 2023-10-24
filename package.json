@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node app.js",
-    "start:dev": "ts-node app.ts"
+    "start": "node src/app.js",
+    "start:dev": "ts-node src/app.ts"
   },
   "dependencies": {
     "jimp": "^0.22.10",

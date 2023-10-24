@@ -11,7 +11,7 @@ const decodeQR = async (): Promise<string> => {
     // await Jimp.read(qrBuffer);
 
     // Load the image with Jimp
-    const image = await Jimp.read('qr.png');
+    const image = await Jimp.read('src/qr.png');
 
     // Get the image data
     const imageData = {
