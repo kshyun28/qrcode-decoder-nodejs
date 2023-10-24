@@ -1,0 +1,19 @@
+{
+  "name": "qrcode-decoder-nodejs",
+  "version": "1.0.0",
+  "description": "Sample QR code decoder in Node.js using jimp and jsqr.",
+  "author": "Jasper Gabriel",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node app.js",
+    "start:dev": "ts-node app.ts"
+  },
+  "dependencies": {
+    "jimp": "^0.22.10",
+    "jsqr": "^1.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
